@@ -1,10 +1,20 @@
 
 .titles {
     color: white;
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
     margin-top: auto;
-    text-align: center;
+}
+.subtitles{
+    color: black;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+
+    margin-bottom: auto;
+
+    background: white;
 }
 h1 {
     font-size: 64px;
