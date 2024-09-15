@@ -1,20 +1,39 @@
 
+@font-face {
+    font-family: "Roboto";
+    src: url("Roboto-Black.ttf");
+  }
+
 .titles {
-    color: white;
+    color:white;
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    font-family: "Roboto", sans-serif;
+
     margin-top: auto;
-}
-.subtitles{
-    color: black;
-
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
-
     margin-bottom: auto;
 
+}
+.subtitles {
+    color: white;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+
+    margin-top: auto;
+}
+.sectionTitles {
+    color: black;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    margin-bottom: auto;
+    margin-top: auto;
+
     background: white;
+}
+.primaryText {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
 }
 h1 {
     font-size: 64px;
@@ -42,5 +61,17 @@ li {
     margin: 50px;
 }
 header {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+    background-image: url("background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+    background-position: center;
+
+    padding: 20px;
     text-align: center;
+
+    height: 420px;
 }
