@@ -3,10 +3,26 @@
     font-family: "Roboto";
     src: url("Roboto-Black.ttf");
   }
+header {
+    background: beige;
 
+    /*background-image: url("background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+    background-position: center;
+    */
+
+    padding: 20px;
+    text-align: left;
+
+    height: 420px;
+}
+nav {
+    text-align: center;
+}
 .titles {
-    color:white;
-
+    color: black;
     font-family: "Roboto", sans-serif;
 
     margin-top: auto;
@@ -14,7 +30,7 @@
 
 }
 .subtitles {
-    color: white;
+    color: black;
 
     font-family: "Roboto", sans-serif;
     font-size: 48px;
@@ -22,14 +38,15 @@
     margin-top: auto;
 }
 .sectionTitles {
-    color: black;
+    color: white;
 
     font-family: "Roboto", sans-serif;
     font-size: 40px;
     margin-bottom: auto;
     margin-top: auto;
 
-    background: white;
+    background: black
+    text-align: center;
 }
 .primaryText {
     font-family: "Roboto", sans-serif;
@@ -43,7 +60,7 @@ body {
     margin: auto;
 }
 section {
-    background-color: rgb(87, 87, 87);
+    background-color: white;
     display: flex;
     flex-direction: row;
     padding: 20px;
@@ -59,19 +76,4 @@ li {
     display: inline-block;
     margin-right: 20px;
     margin: 50px;
-}
-header {
-    background: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-
-    background-image: url("background.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position-y: 100px;
-    background-position: center;
-
-    padding: 20px;
-    text-align: center;
-
-    height: 420px;
 }
